@@ -108,7 +108,7 @@ After installation, you can run the calculation using the `bell-ballmilling` com
 -   **Line 3**: A string `YES` or `NO` to indicate whether to include van der Waals radii.
 ```text
 1.0
-40
+100
 YES
 ```
 
