@@ -1,0 +1,58 @@
+# pyproject.toml
+# Standard configuration file for Python projects (PEP 621)
+
+# Defines the build system and its requirements.
+# This tells pip how to build your project.
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+# Contains all the metadata about your project.
+[project]
+name = "bell-ballmilling"
+version = "0.1.0"
+description = "A program to evaluate the work term W(φ,θ) for the Bell-BallMilling model under external pressure."
+
+# Path to the long description file and its content type.
+readme = "README.md"
+
+# Specify the Python versions your project supports.
+requires-python = ">=3.8"
+
+# Author and license information.
+# --> TODO: Replace with your actual name and email.
+authors = [
+    { name = "Luis Manuel Frutos", email = "luisma.frutos@uah.es" },
+]
+license = { text = "MIT" }
+
+# Classifiers help users find your project on PyPI.
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Chemistry",
+    "Intended Audience :: Science/Research",
+]
+
+# This section lists the project's runtime dependencies.
+# It replaces the need for a separate requirements.txt for installation.
+dependencies = [
+    "numpy>=1.20",
+    "scipy>=1.7",
+    "matplotlib>=3.5",
+]
+
+[project.urls]
+Homepage = "https://github.com/LMFrutos"
+Repository = "https://github.com/LMFrutos/Bell_BallMilling"
+
+# This section creates a command-line script when the package is installed.
+# After installation, the user can run `bell-ballmilling` from the terminal.
+[project.scripts]
+bell-ballmilling = "Bell_BallMilling:main"
