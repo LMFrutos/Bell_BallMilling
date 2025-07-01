@@ -95,6 +95,7 @@ After installation, you can run the calculation using the `bell-ballmilling` com
 **`R_min.txt` / `R_TS.txt`**
 -   **Line 1**: `N` (an integer representing the number of atoms).
 -   **Lines 2 to N+1**: `Z x y z` (atomic number and Cartesian coordinates in Ångstroms), with each atom on a new line.
+```text
 3
 8 0.000000 0.117300 -0.054400
 1 -0.757200 -0.469200 -0.054400
@@ -105,6 +106,7 @@ After installation, you can run the calculation using the `bell-ballmilling` com
 -   **Line 1**: External pressure `P_ext` in GPa (float).
 -   **Line 2**: Grid resolution for the `θ` coordinate, `ntheta` (integer). The `φ` grid will be `2 * ntheta`.
 -   **Line 3**: A string `YES` or `NO` to indicate whether to include van der Waals radii.
+```text
 1.0
 40
 YES
