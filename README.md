@@ -100,7 +100,7 @@ After installation, you can run the calculation using the `bell-ballmilling` com
 8 0.000000 0.117300 -0.054400
 1 -0.757200 -0.469200 -0.054400
 1 0.757200 -0.469200 -0.054400
-
+```
 
 **`input.txt`**
 -   **Line 1**: External pressure `P_ext` in GPa (float).
@@ -110,7 +110,7 @@ After installation, you can run the calculation using the `bell-ballmilling` com
 1.0
 40
 YES
-
+```
 
 ### Output Files
 
