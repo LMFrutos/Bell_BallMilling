@@ -26,10 +26,9 @@ This project is packaged following modern Python standards using `pyproject.toml
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/LMFrutos/RESMOL_UAH.git
-    cd RESMOL_UAH/Bell_BallMilling 
+    git clone https://github.com/LMFrutos/Bell_BallMilling.git
+    cd Bell_BallMilling
     ```
-    *(Note: Adjust the path if you clone a different repository or directory structure.)*
 
 2.  **Create and activate a virtual environment:**
     ```bash
@@ -43,7 +42,7 @@ This project is packaged following modern Python standards using `pyproject.toml
     ```
 
 3.  **Install the package:**
-    Run the installation with `pip` from the project's root directory (the one containing `pyproject.toml`). This command will automatically read the `pyproject.toml` file, install all required dependencies (`numpy`, `scipy`, `matplotlib`), and set up the command-line script.
+    Run the installation with `pip` from the project's root directory. This command will automatically read the `pyproject.toml` file, install all required dependencies (`numpy`, `scipy`, `matplotlib`), and set up the `bell-ballmilling` command-line script.
 
     ```bash
     pip install .
@@ -53,10 +52,10 @@ This makes the `bell-ballmilling` command available in your terminal.
 
 ## How to Run
 
-After installation, you can run the calculation script using the `bell-ballmilling` command. The program expects the input files to be present in the directory where you run the command.
+After installation, you can run the calculation using the `bell-ballmilling` command. The program expects the input files to be present in the directory where you run the command.
 
 1.  **Prepare your input files.**
-    An example set is provided in the `example/input_files/` directory. For a quick test, copy them to your current working directory (the project root):
+    An example set is provided in the `example/input_files/` directory. For a quick test, copy them from the example folder to the project's root directory:
 
     ```bash
     # For Unix/macOS
