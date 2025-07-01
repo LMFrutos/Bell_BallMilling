@@ -1,4 +1,4 @@
-# Bell-BallMilling Model Calculator
+# Bell-BallMilling Model 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
