@@ -120,7 +120,7 @@ YES
 
 ## Output Visualization
 
-The script generates a composite image that helps visualize the directional dependence of the work term. Red areas indicate orientations where the external force stabilizes the transition state (lower work), while blue areas indicate destabilization (higher work).
+The script generates a composite image that helps visualize the directional dependence of the work term. Red areas indicate orientations where the external force stabilizes the transition state (negative work), while blue areas indicate destabilization (positive work).
 
 ![Example Spherical Plot](example/output_files/W_spherical.png)
 
